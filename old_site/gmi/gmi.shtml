@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>SigCHI@UIUC: Gestural Music Interface</title>
+</head>
+
+<body>
+&nbsp;<table width=80%>
+<tr>
+ <td><img src="/sigchi/gmi.gif"></td>
+ <td align="right">Lead Developer: <a href="http://jbenjamin.org">Joshua Benjamin</a></td>
+</tr></table>
+
+<br>
+<br>
+<b>Executable</b> Download <a href="gmi.zip">GMI 1.0.1</a>.
+<br><b>Required files for executable</b> <a
+href="http://microsoft.com/windows/directx/downloads/default.asp">DirectX</a> | 
+<a href="http://www.essentialreality.com/patches/P5SETUP.ZIP">P5 Driver</a>
+<br><br>
+<b>Source</b> for GMI 1.0 available as a <a href="gmisrc.zip">zip</a> or
+<a href="gmisrc.tar.gz">tarball</a>. <a
+href="TODO_BUGS_FEATURES.txt">Todo/bugs/feature list</a>.
+<br><b>Required files for src</b>
+<a href="http://msdn.microsoft.com/library/default.asp?url=/downloads/list/directx.asp">DirectX SDK</a> | 
+<a href="http://www.essentialreality.com/patches/P5SETUP.ZIP">P5 Driver</a>
+
+<p>
+I've found <a href="http://www.codeproject.com/audio/MidiPorts.asp">this tutorial</a> on
+DirectMusic/DirectMidi extremely helpful. Essentially, our application will be an interface between
+their tutorial app and the P5 glove. Infinite thanks to Carlos Jiménez de Parga for writing it.
+<br>
+<br>
+<p>
+The Gestural Music Interface is a control interface to manipulate real-time musical signals in a 3D virtual space, based on the P5's characteristics and finger bending. It's important to strongly stress that we intend to create an instrument, not develop software to emulate one, yet still be intuitive. The lack of an analogy should prove beneficial since there won't be a preexistent conflicting cognitive model.
+</p>
+<p>
+Constraints by comparison: Wind and horn instruments use breath to control intensity, we can't do that. But for example, take a trumpet, location of the hand in relation to the body can completely replace the need for breath. Percussion/String instruments typically require two hands, we have only the use of the right hand for the perceptive instrument. No tactile feedback other than a desk or wall.
+</p>
+<p>
+Physical Affordances by comparison: The glove detects motion in all dimensions of arm and wrist movement and has good precision of finger bending. Data provided via computer monitor can significantly help with feedback. Speakers will provide real-time sonification from movement as well. Though there is no left handed glove, the left hand will still be used to control modes or something via a keyboard or mouse.
+</p>
+<p>
+Perceptual Affordances: A user should feel relatively comfortable with the system from the get-go since people already might drum their thumb on a table as a nervous habit, seen an orchestra conductor perform, have seen the movements to play a musical instrument before, etc. Instant audio feedback is analogous to musical instruments as well, though it should be noted that it may be confusing that the sound originates from speakers and not near the user's hand.
+</p>
+<br>
+<center>
+<img src="/sigchi/eoh2003/family.jpg"><br>GMI demo - Engineering Open House 2003
+</center>
+<br>
+References:
+<ul>
+<li><a href="http://wex.www.media.mit.edu/people/wex/gest-bib.html">Natural Gesture Research</a></li>
+<li><a href="http://music.calarts.edu/~tre/JavaMusic.html">Electronic Music Projects</a></li>
+<li><a href="http://www.cs.sfu.ca/~amulder/personal/vmi/vmi.html">Links for mid-90's research</a></li>
+<li><a href="http://www.cs.sfu.ca/~amulder/personal/vmi/AM98-thesis.pdf">Thesis on Gestures to Manipulate Existing Music</a></li>
+<li><a href="http://seamonkey.mle.ie/nime/Proceedings/navig/toc.htm">NIME '02 Proceedings</a></li>
+<li><a href="http://www.thereminvox.com">Tips on Gesture applied to Music</a></li>
+</ul>
+<p align="center"><img src="../glove_photo_lrg.gif"></p>
+
+</body>
+</html>

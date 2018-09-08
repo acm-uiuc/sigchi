@@ -1,0 +1,74 @@
+html {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background: #f4f5f8;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.35;
+}
+
+h3 {
+	font-size: 18pt;
+	margin: 0;
+	line-height: 1.4;
+}
+
+header, #content, footer {
+  width: 77%;
+  max-width: 980px;
+  margin: 10px auto;
+}
+
+header .important {
+	width: 250px;
+	background: #fff;
+	margin: 0;
+	padding: 15px 25px;
+	border: 2px solid #666;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px; 
+	float: right;
+	font-size: 120%;
+}
+
+footer {
+	margin-top: 20px;
+	font-size: 80%;
+}
+
+#acmlogo {
+  width: 38px;
+  margin-right: .5em;
+  vertical-align:middle;
+}
+a {
+  text-decoration: none;
+  color: #36d;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #139;
+}
+
+ul, ol {
+	margin: .8em 1.5em;
+	padding: 0;
+}
+li {
+	margin: .5em .8em;
+	padding: 0;
+}
+
+dl dt {
+	font-weight: bolder;
+}
+dl dd {
+	margin: 0 0 .5em 0;
+}

@@ -1,0 +1,12 @@
+Ordered by priority:
+
+Holding shift causes the application to crash
+Allow QWERTY keyboard to share use of the five keys mapped with the glove.
+Function and extension to map where hand is on virtual piano, in relation to X position with P5 Glove.
+Function to alter proper finger mapping to black keys when Y,Z are increased over a period of time (gesture forward and up a little)
+Have bend velocity affect volume of key being pressed (like a real keyboard)
+Function to watch change in Y downward. If significant, make all bent keys "hit". This will help the user make chords. (on a real keyboard, you move your hand AND fingers to hit keys)
+
+Send comments, bugs, and feature suggestions to sigchi@uiuc.edu
+
+ - Joshua Eric Benjamin <imagine@jbenjamin.org>

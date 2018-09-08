@@ -1,0 +1,30 @@
+scale	computer_expert	I would consider myself to be a computer expert.
+scale	computer_security	I would consider myself to know a lot of computer security and best practices.
+scale	clear_passwords	I often leave my passwords out in clear view of others.
+scale	sheet_paper	I have a sheet of paper that lists all my frequently used passwords at my computer.
+scale	auto_save	I take advantage of my web browser's auto-save password feature.
+scale	unique_pass	I have a unique password for each account.
+scale	frustrated	I get frustrated when a system does not let me use the password I have chosen.
+scale	random_pass	My passwords are composed of random alphanumeric characters and symbols.
+scale	dict_pass	My passwords are usually dictionary words or proper nouns.
+scale	told_pass	I have told someone a password and did not change it afterwards.
+scale	memorized	I have memorized all the passwords I use on a daily basis.
+scale	email_pass	Without hesitation, I could type the password for my email account from memory.
+scale	disclose_pass	I am more concerned that I would lose all my files on my computer than accidentally disclosing my password to a malicious person.
+scale	save_pass	Saving my passwords on my computer gives me a better sense of security than writing them on a sheet of paper.
+scale	follow_guide	I follow the guidelines for choosing a password given by the system administrator.
+scale	trust_pass	I use the same password for sites that I distrust (forums) as I do for important websites (banking).
+scale	secure_storage	If I could store my passwords on a secure storage system, I would.
+scale	loved_ones	I would trust my loved ones with my passwords.
+scale	bank_trust	I would trust my banking website not keep my password in a secure place.
+scale	web_plain	I would feel uneasy if a website gives me my password in plaintext.
+scale	web_reset	I am usually forced to reset a password to a site I have not visited in a few months because I forgot the password.
+scale	personal_pass	I use a name, birthday, or some other personal information about me or my family when choosing a password.
+short_num	unique_count	How many unique passwords do you have?
+short_num	per_pass_count	How many do you use each password?
+short_num	day_count	How many times do you manually type in a password each day?
+short_num	age	Age?
+short_choice	gender	Gender? (Male, Female)
+long	pass_choosing	How do you choose your passwords?
+long	pass_improve	How would you improve the password situation?
+long	extra_thoughts	Do you have any extra thoughts or comments you would like to share?
