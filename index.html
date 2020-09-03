@@ -4,7 +4,7 @@
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<script type="text/javascript" src="http://use.typekit.com/lvz4iac.js"></script>
+	<link rel="stylesheet" href="https://use.typekit.net/ucy4vfy.css">
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<script type="text/javascript">
 	
@@ -19,78 +19,67 @@
 	  })();
 	
 	</script>
-	<link rel="stylesheet" href="sigchi.css" type="text/css" media="screen" /> 
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<title>
 		SIGCHI - Special Interest Group for Computer-Human Interaction at UIUC
 	</title>
 </head>
 <body>
-	<header>
-
-		<img src="sigchi-logo.png" alt="SIGCHI" />
-	</header>
-	<div id="content" class="tk-museo-sans">
-		<section>
-			<h3>About Us</h3>
-			<p>
-				SIGCHI is the Special Interest Group for Computer-Human Interaction.  We are
-				the student chapter at the University of Illinois at Urbana-Champaign.  Our
-				purpose is twofold: to investigate how technology can be made easier to use,
-				and to explore the strengths and weaknesses of different interface paradigms.
-				This means we are interested in everything from how to make usable software
-				for touch screens, to how different menu shapes can affect navigation time.
-			</p>
-		</section>
-		<section>
-			<h3>News and Upcoming Events</h3>
-			<ul>
-				<!--
-				<li clas="vevent">
-					<strong><a href="https://www.facebook.com/event.php?eid=106218042774021">Design Jam Workshop:</a></strong> <time class="dtstart" datetime="2010-10-11T19:00:00-05:00">Monday Oct. 11 (7pm</time> - <time class="dtstart" datetime="2010-10-11T21:00:00-05:00">9pm)</time><br />
-					Learn how to do rapid prototyping and then get some hands-on practice!
-				</li>
-				<li class="vevent">
-					Please try to make it to our next meeting on <time class="dtstart" datetime="2010-09-28T2000:00:00-05:00">Tuesday, Sept. 28 at 8pm</time> in <span class="location">1105 Siebel</span>.  
-					We will be doing some important planning, especially with regard to Android development.
-				</li>
-				-->
-
-
-			</ul>
-		</section>
-		<section>
-			<h3>How to Join</h3>
-			<p>
-				If you are interested in being a part of SIGCHI, please join our 
-				<a href="http://www.acm.uiuc.edu/mailman/listinfo/sigchi-l">mailing list</a>.
-			</p>
-			<p>
-				Anyone from any background is welcome to attend our meetings.
-			</p>
-		</section>
-		<section>
-			<h3>Leadership</h3>
-			<dl>
-				<dt>
-					Chair
-				</dt>
-				<dd>
-					Jeffrey Tsai (<a href="mailto:jeffrey5@illinois.edu">jeffrey5</a>)
-				</dd>
-				
-				<dt>
-
-			</dl>
-			</div>
-		</section>
-	</div>
-	<footer>
-		<a href="http://acm.uiuc.edu">
-			<img src="acm-logo.png" id="acmlogo" alt="ACM@UIUC" />
-		</a>
-		<a href="http://acm.uiuc.edu">
-			Association for Computing Machinery at the University of Illinois at Urbana-Champaign
-		</a>
-	</footer>
+<div id="body_wrap">
+        <div id="spicy_chicken_wrap">
+            <h1> SIGCHI </h1>
+            <div id="introduction">
+                <p>
+                    We are SIGCHI, <a href="https://acm.illinois.edu"><u>ACM</u></a>'s special interest group for Human-Computer Interaction. CHI is a multidisciplinary field within computer science that focuses on the interaction between humans and computers. We look at how technology can be designed and engineered to help humans. Despite the circumstances of COVID-19, we have decided to continue with the group’s operations online. SIGCHI will operate mainly through our new Discord server. Join our <a href="javascript:openModal()"><u>mailing list</u></a> for more updates!
+                </p>
+            </div>
+            <div class="info-container-wrapper">
+                <div class="info-container">
+                    <h5> Join </h5>
+                    <ul>
+                        <li><a href="https://cutt.ly/sigchiUIUC">
+                                <h3>discord</h3><img src="img/discord.png" alt="Discord Link">
+                            </a></li>
+                        <li><a href="javascript:openModal()" class="emailbtn">
+                                <h3>email</h3><img src="img/email.png" alt="Mailing List">
+                            </a></li>
+                        <li><a href="https://acm-uiuc.slack.com">
+                                <h3>slack</h3><img src="img/slack.png" alt="Slack Channel">
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="info-container">
+                    <h5> Contact </h5>
+                    <ul>
+                        <li><a href="mailto:athosa2@illinois.edu">abhimanyu thosar</a></li>
+                        <li><a href="mailto:mbifeld2@illinois.edu">mitchell bifeld</a></li>
+                        <li><a href="mailto:swathir3@illinois.edu">swathi ram</a></li>
+                        <li><a href="mailto:jeffrey5@illinois.edu">jeffrey tsai</a></li>
+                    </ul>
+                </div>
+                <div class="info-container last">
+                    <h5> Meetings </h5>
+                    <ul>
+                        <li>Tuesdays 6-7 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="modal-background">
+                .
+            </div>
+            <div id="modal">
+                <form id="modal-content" action="https://usebasin.com/f/d3397163d630" method="POST">
+                    <label>Keep informed on our latest news and events.</label>
+                    <input type="email" id="emaillist" name="email">
+                    <input type="submit" id="submit" name="submit">
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

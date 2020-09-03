@@ -1,0 +1,243 @@
+/* ---------------------------
+
+ Main Components 
+
+----------------------- */
+body {
+    -webkit-font-smoothing: anti-aliasing;
+    background-color: #ffe100;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#body_wrap {
+}
+#spicy_chicken_wrap {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+#spicy_chicken_wrap {
+    background-color: #fff;
+}
+
+a:hover {
+    color:#000;
+}
+#introduction a {
+    font-weight: 800;
+}
+
+a {    
+    transition: all 0.2s;
+    text-decoration: none;
+    color:#666;
+}
+
+li {
+    font-family: sofia-pro-soft, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    padding-top:10px;
+}
+
+h5 {
+    font-family: sofia-pro, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-align: right;
+}
+
+.info-container-wrapper {
+    top:125px;
+    bottom: 100px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: space-between;
+    height: 75vh;
+    position: absolute;
+}   
+
+.info-container img{
+    max-width: 45px;
+}
+
+
+h3 {
+    display: none;
+    transition: all 0.2s ease;
+}
+
+h3:hover {
+    opacity:1;
+}
+
+.last {
+    padding-bottom: 0px !important;
+}
+
+#modal {
+    transition: opacity 0.2s;
+    position: fixed;
+    height: 70vh;
+    width: 70vw;
+    top: 50%;
+    z-index: -1;
+    left: 50%;
+    margin-top: -35vh; /* Negative half of height. */
+    margin-left: -35vw;
+    background-color: #121212;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#modal-content {
+    transition: opacity 0.2s;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding-left:50px;
+    padding-right:50px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+br {
+    line-height: 50px;
+}
+
+#modal-background {
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+#modal label { 
+    color: #fff;
+    font-family: sofia-pro, sans-serif;
+    font-size:1.4em;
+    font-weight:600;
+    margin-top: 50px;
+}
+
+br {
+    height: 250px;
+}
+
+input {
+    font-family: sofia-pro,sans-serif;
+}
+#emaillist {
+    height: 35px;
+    width:350px;
+    padding:10px;
+    padding-left:40px;
+    border-radius: 200px;
+    border: none;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+#submit {
+    margin-top: 125px;
+    transition: all 0.2s;
+    height:50px;
+    width:200px;
+    border-radius: 500px;
+    background-color: #ffe100;
+    border: none;
+    font-weight: 600;
+    font-size:16px;
+}
+
+#submit:hover {
+    background-color: #fff;
+}
+
+input:focus {
+    outline-style: none;
+    border:solid blue 2px;
+    border-radius: 200px;
+    outline-width: 0px;
+
+}
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 38px;
+    font-family: sofia-pro, sans-serif;
+
+}
+
+#introduction {
+    max-width: 400px;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+
+h1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: sofia-pro, sans-serif;
+    font-size: 96px;
+    font-weight: 800;
+    letter-spacing: 15px;
+}
+
+
+/***** MEDIA QUERY ******/
+@media only screen and (max-width: 825px) {
+    #modal-content label {
+        font-size:1.1em;
+    }
+    #modal-content {
+    }
+
+    #emaillist {
+        height: 20px;
+        width: 200px;
+        font-size: 12px;
+    }
+
+    #submit {
+        margin-top: 125px;
+        transition: all 0.2s;
+        height: 40px;
+        width: 200px;
+        border-radius: 500px;
+        background-color: #ffe100;
+        border: none;
+        font-weight: 600;
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 128px;
+        letter-spacing: 20px;
+    }
+}
+
+
